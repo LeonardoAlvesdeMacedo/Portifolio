@@ -1,0 +1,233 @@
+.titulo-parte2 h1 {
+    font-family: var(--font-titles);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.conteiner-parte2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-parte2 {
+    display: flex;
+    justify-content: center;
+}
+
+.texto1 p {
+    max-width: 46rem;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.sub2-texto1 {
+    margin-top: 1rem;
+    max-width: 45rem;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.linguagensProf{
+    display: flex;
+    align-items: center;
+}
+
+.linguagensProf span {
+    background-color: var(--quinternary-color);
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 1rem;
+    font-family: var(--font-titles);
+    font-size: 14px;
+    color: white;
+    cursor: default;
+    border: 1px solid white;
+}
+
+.infos-tudo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.infos li {
+    list-style: none;
+}
+
+.tipos-info {
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.prsd {
+    margin-top: 1rem;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.botao-curriculo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.botao-cur {
+    width: 11rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    color: inherit;
+} 
+
+.botao-cur:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.botao-cur a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img-lada1 img {
+    width: 26rem;
+    height: 17rem;
+    margin-right: 4rem;
+    border-radius: 3rem;
+    box-shadow: -10px 0px 13px -7px rgb(206 206 206 / 25%),
+                10px 0px 13px -7px rgb(206 206 206 / 25%),
+                1px 4px 10px -2px rgb(206 206 206 / 25%);
+    position: relative;
+    z-index: 1;
+}
+
+.img-lada2 img {
+    width: 26rem;
+    height: 17rem;
+    margin-top: -7rem;
+    border-radius: 3rem;
+    box-shadow: -10px 0px 13px -7px rgb(206 206 206 / 25%),
+                10px 0px 13px -7px rgb(206 206 206 / 25%),
+                1px 4px 10px -2px rgb(206 206 206 / 25%);
+    position: relative;
+    z-index: 2;
+}
+
+.img-lada1 img:hover{
+    position: relative;
+    z-index: 3;
+    animation: animImg 1s ease-in-out;
+    box-shadow: -10px 0px 13px 2px rgb(206 206 206 / 25%),
+                10px 0px 13px 4px rgb(206 206 206 / 25%),
+                1px 4px 10px 3px rgb(206 206 206 / 25%);
+}
+
+@keyframes animImg {
+    0% {
+        top: 0rem;
+        z-index: 1;
+    }
+
+    50%{
+        top: -8rem; 
+        z-index: 3;
+    }
+
+    100% {
+        top: 0rem;
+    }
+}
+
+.img-lada2 img:hover{
+    transition: 0.4s;
+    margin-top: -9rem;
+    box-shadow: -10px 0px 13px 2px rgb(206 206 206 / 25%), 10px 0px 13px 4px rgb(206 206 206 / 25%), 1px 4px 10px 3px rgb(206 206 206 / 25%);
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+.doisemum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 29rem;
+}
+
+.ballCarr{
+    display: flex;
+    align-items: center;
+}
+
+.ballCarr span{
+    margin: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid var(--quinternary-color);
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.carouselMark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#beckball{
+    background-color: var(--quinternary-color);
+}
+
+.elements2{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elements1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.elements1, .elements2{
+    position: relative;
+    left: 0;
+    animation: saindo 1s; 
+}
+
+@keyframes saindo {
+    0% {
+        left: -10rem;
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100% {
+        left: 0rem;
+        opacity: 1;
+    }
+}

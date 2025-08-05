@@ -1,0 +1,380 @@
+@media (max-width: 2560px) {
+    .alinhamento {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 1439px) {
+    .parte1 {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/Of.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 0rem 0rem 5rem 5rem;
+    }
+
+    .minha-img img {
+        width: 16rem;
+    }
+
+    .img-lada1 img {
+        margin-left: 6rem;
+    }
+
+    .img-lada2 img {
+        margin-top: -8rem;
+        margin-left: 5rem;
+    }
+
+    .titulo-parte2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .parte3 {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/night_city_window_rain.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    iframe {
+        width: 50rem;
+        height: 26rem;
+        border-radius: 2rem;
+        border: 4px solid;
+    }
+
+    .emotes {
+        display: none;
+    }
+
+    .quebra {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 2rem;
+    }
+
+    .block1-q,
+    .block2-q {
+        flex-direction: column;
+    }
+
+    .baixo-porjeto {
+        width: 24rem;
+        height: 6rem;
+    }
+
+    .im1,
+    .im2,
+    .im3,
+    .im4,
+    .im5,
+    .im6 {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem 2rem 0rem 0rem;
+    }
+
+
+    .grupo-projeto {
+        justify-content: center;
+    }
+
+    .grupo-projeto {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .meu-nome h1 {
+        font-size: 1rem;
+    }
+
+    .minha-img img {
+        width: 16rem;
+    }
+
+    .texto1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0rem;
+        width: 60%;
+    }
+
+    .carouselMark{  
+        display: none;
+    }
+}
+
+@media (max-width: 786px) {
+
+    .parte1 {
+        width: 100%;
+        height: 120%;
+        background-image: url(../img/Of.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0rem 0rem 3rem 3rem;
+    }
+
+    .meu-nome h1 {
+        font-size: 1.5rem;
+    }
+
+    .minha-img img {
+        width: 16rem;
+    }
+
+    .logo h1 {
+        font-family: var(--font-family);
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .conteiner-menu {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .logo-cor {
+        color: var(--secondary-color);
+        font-family: var(--font-family);
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .ulmenu {
+        display: none;
+    }
+
+    .menu-section {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .doisemum {
+        display: none;
+    }
+
+    .menu-section.on ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .alinhamento {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0rem 3rem 0rem 3rem;
+    }
+
+    .conteiner-parte2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-parte2 h1 {
+        font-family: var(--font-family);
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .texto1 p {
+        max-width: 18rem;
+        font-family: var(--font-family);
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .infos-tudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parte3 {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/night_city_window_rain.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem;
+        max-width: 16rem;
+        background-color: var(--primary-color);
+        height: 7rem;
+        border: 2px solid rgb(85 85 85 / 72%);
+        border-radius: 0.5rem;
+    }
+
+    iframe {
+        width: 22rem;
+        height: 15rem;
+        border-radius: 2rem;
+        border: 2px solid;
+    }
+
+    .titulo2-parte4 h1,
+    .titulo2-parte4 a {
+        font-size: 1rem;
+        max-width: 19rem;
+    }
+
+    .baixo-porjeto {
+        width: 20rem;
+    }
+
+    .barrastatus {
+        background-color: var(--primary-color);
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: space-evenly;
+        gap: 2rem 1rem;
+        padding: 3rem 3rem;
+        margin-top: 5rem;
+    }
+
+    .emotes {
+        display: none;
+    }
+
+    .block1-q,
+    .block2-q {
+        flex-direction: column;
+    }
+
+    .n1e {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .n2e,
+    .n3e {
+        font-size: 14px;
+    }
+
+    .formacao1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem;
+        width: 80%;
+    }
+
+    .tudo-parte5 {
+        justify-content: center;
+    }
+
+    .quebra {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: 2rem;
+    }
+
+    .block2-q {
+        margin-top: 0rem;
+    }
+
+    .cards-contato {
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .card1-contato a {
+        margin-top: 3rem;
+    }
+
+    footer {
+        background-color: var(--primary-color);
+        width: 100%;
+        height: 54rem;
+    }
+
+    .cards-pr-alinhamento {
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 0px;
+        top: 11px;
+    }
+
+    .carouselMark{  
+        display: none;
+    }
+
+    .cards-pr-alinhamento{
+        max-width: 90%;
+    }
+
+    .nivel {
+        margin: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .elements i {
+        font-size: 2rem;
+    }
+
+    .txt2 {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 518px) {
+    .parte3 {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/night_city_window_rain.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card1 {
+        max-width: 14rem;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+}
